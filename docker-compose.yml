@@ -2,7 +2,7 @@ networks:
   db-data-network:
     driver: bridge
 services:
-  mysql:
+  mysql-compose:
     image: difuz1x/mysql-local:1.0.0 
     build:
       context: .
